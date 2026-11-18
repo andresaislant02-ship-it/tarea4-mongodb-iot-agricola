@@ -26,14 +26,7 @@ Sistema de monitoreo de fincas con sensores de humedad del suelo, temperatura, p
 
 Criterio: se **embebe** lo que se consulta junto y se **referencia** lo que crece sin límite.
 
-## Cómo ejecutarlo
 
-1. Crear un clúster gratuito en [MongoDB Atlas](https://www.mongodb.com/atlas) y obtener la cadena de conexión.
-2. Instalar [mongosh](https://www.mongodb.com/docs/mongodb-shell/).
-3. Ejecutar:
-
-```bash
-mongosh "TU_CADENA_DE_CONEXION" tarea4_finca_iot.js
 ```
 
 El script borra y vuelve a crear las colecciones, inserta los datos de prueba, crea los índices y ejecuta las consultas.
