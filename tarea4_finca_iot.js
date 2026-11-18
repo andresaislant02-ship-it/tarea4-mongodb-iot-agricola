@@ -56,7 +56,7 @@ let l = 1, a = 1;
 sensores.forEach(s => {
   const span = s.umbral.max - s.umbral.min;
   for (let i = 0; i < 8; i++) {
-    const valor = entre(s.umbral.min - 0.15 * span, s.umbral.max + 0.15 * span, 1);
+    const valor = Math.max(0, entre(s.umbral.min - 0.15 * span, s.umbral.max + 0.15 * span, 1)); // sin valores negativos
     const lec = {
       _id: "L" + String(l).padStart(3, "0"),
       sensor_id: s._id,
