@@ -27,7 +27,6 @@ Sistema de monitoreo de fincas con sensores de humedad del suelo, temperatura, p
 Criterio: se **embebe** lo que se consulta junto y se **referencia** lo que crece sin límite.
 
 
-```
 
 El script borra y vuelve a crear las colecciones, inserta los datos de prueba, crea los índices y ejecuta las consultas.
 
